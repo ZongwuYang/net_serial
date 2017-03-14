@@ -90,7 +90,7 @@ void serialrecv_netsend()
 	recvdata.ecu_brake_pedal = 32;
 	recvdata.ecu_gear = 2;
 
-	DEBUG("RecvDataFromSTM32 struct size = %d\n", sizeof(RecvDataFromSTM32));
+	//DEBUG("RecvDataFromSTM32 struct size = %d\n", sizeof(RecvDataFromSTM32));
 	
 	fd_set rd;
 	FD_ZERO(&rd);
